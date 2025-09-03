@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-oo^_+%sd@i26smh@a+se9i9n$c@go-a@+ekq7yny^5+c5ihyrh
 # SECURITY WARNING: don't run with debug turned on in production!
 PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
 DEBUG = True
-
+# tangguh.ambha = tangguh-ambha-footballnews
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "tangguh-ambha-footballnews.pbp.cs.ui.ac.id"]
 
 
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'main'
 ]
 
 MIDDLEWARE = [
