@@ -32,7 +32,7 @@ DEBUG = True
 # tangguh.ambha = tangguh-ambha-footballnews
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "tangguh-ambha-footballnews.pbp.cs.ui.ac.id"]
 CSRF_TRUSTED_ORIGINS = [
-    "http://tangguh-ambha-footballnews.pbp.cs.ui.ac.id"
+    "https://tangguh-ambha-footballnews.pbp.cs.ui.ac.id"
 ]
 
 # Application definition
