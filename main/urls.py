@@ -6,6 +6,7 @@ app_name = 'main'
 urlpatterns = [
     path('', views.show_main, name='show_main'),
     path('create-news/', views.create_news, name='create_news'),
+    path('create-news-ajax', views.add_news_entry_ajax, name='add_news_entry_ajax'),
     path('news/<str:id>/', views.show_news, name='show_news'),
     path('xml/', views.show_xml, name='show_xml'),
     path('json/', views.show_json, name='show_json'),
